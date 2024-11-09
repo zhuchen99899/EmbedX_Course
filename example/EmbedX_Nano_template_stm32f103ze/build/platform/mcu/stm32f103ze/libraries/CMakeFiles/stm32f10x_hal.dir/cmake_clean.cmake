@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj.d"
+  "CMakeFiles/stm32f10x_hal.dir/__/core/GCC/startup_stm32f103xe.s.obj"
+  "CMakeFiles/stm32f10x_hal.dir/__/core/system_stm32f1xx.c.obj"
+  "CMakeFiles/stm32f10x_hal.dir/__/core/system_stm32f1xx.c.obj.d"
+  "libstm32f10x_hal.a"
+  "libstm32f10x_hal.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM C)
+  include(CMakeFiles/stm32f10x_hal.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

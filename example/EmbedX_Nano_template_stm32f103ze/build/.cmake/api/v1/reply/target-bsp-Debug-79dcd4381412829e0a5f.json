@@ -1,0 +1,371 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "platform/mcu/stm32f103ze/bsp/libbsp.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"platform/mcu/stm32f103ze/bsp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m3  -mthumb -Wall -Wextra -Werror -fno-common -ffunction-sections -fdata-sections -fmessage-length=0 -std=gnu99 -Og -g3"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "STM32F103xE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/bsp/delay"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/bsp/it"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/bsp/sys"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/CMSIS/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/../core/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m3  -mthumb -Wall -Wextra -Werror -fno-common -ffunction-sections -fdata-sections -fmessage-length=0 -x assembler-with-cpp -g3"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "STM32F103xE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/bsp/delay"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/bsp/it"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/bsp/sys"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/CMSIS/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/../core/include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				18
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "stm32f10x_hal::@ed41b46213003a4463a1"
+		}
+	],
+	"id" : "bsp::@abbd8f8b57e738f42b0f",
+	"name" : "bsp",
+	"nameOnDisk" : "libbsp.a",
+	"paths" : 
+	{
+		"build" : "platform/mcu/stm32f103ze/bsp",
+		"source" : "platform/mcu/stm32f103ze/bsp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				18
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/bsp/delay/delay.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/bsp/it/stm32f1xx_it.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/bsp/sys/sys.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platform/mcu/stm32f103ze/core/system_stm32f1xx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "platform/mcu/stm32f103ze/core/GCC/startup_stm32f103xe.s",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

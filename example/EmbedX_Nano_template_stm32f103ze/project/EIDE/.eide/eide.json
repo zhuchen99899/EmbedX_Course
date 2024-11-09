@@ -1,0 +1,308 @@
+{
+  "name": "template",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "app",
+        "files": [
+          {
+            "path": "../../app/main.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "core",
+        "files": [
+          {
+            "path": "../../platform/mcu/stm32f103ze/core/ARM/startup_stm32f103xe.s"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/core/system_stm32f1xx.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/CMSIS/Core/Include/cmsis_armcc.h"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/CMSIS/Core/Include/core_cm3.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "ST_HAL",
+        "files": [
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "bsp",
+        "files": [
+          {
+            "path": "../../platform/mcu/stm32f103ze/bsp/it/stm32f1xx_it.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/bsp/sys/sys.c"
+          },
+          {
+            "path": "../../platform/mcu/stm32f103ze/bsp/delay/delay.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Ex_device",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "Ex_component",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "driver",
+        "files": [],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "7f506ab0cd5c1a9e633dc812452d11f4"
+  },
+  "targets": {
+    "Target 1": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x80000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f1x",
+        "interface": "stlink",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../../platform/mcu/stm32f103ze/core/include",
+          "../../platform/mcu/stm32f103ze/libraries/CMSIS/Core/Include",
+          "../../platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Inc",
+          "../../platform/mcu/stm32f103ze/libraries/CMSIS/Device/ST/STM32F1xx/Include",
+          "../../platform/mcu/stm32f103ze/bsp/it",
+          "../../platform/mcu/stm32f103ze/bsp/sys",
+          "../../platform/mcu/stm32f103ze/bsp/delay",
+          ".cmsis/include",
+          "../MDK/RTE/_Target 1"
+        ],
+        "libList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32F103xE"
+        ]
+      },
+      "builderOptions": {
+        "AC5": {
+          "version": 4,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "use-microLIB": false,
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "level-0",
+            "one-elf-section-per-function": true,
+            "c99-mode": true,
+            "C_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "CXX_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "warnings": "all-warnings"
+          },
+          "asm-compiler": {},
+          "linker": {
+            "output-format": "elf",
+            "xo-base": "",
+            "ro-base": "0x08000000",
+            "rw-base": "0x20000000"
+          }
+        }
+      }
+    }
+  },
+  "version": "3.5"
+}
