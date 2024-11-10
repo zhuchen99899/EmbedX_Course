@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/core/GCC/startup_stm32f103xe.s
+

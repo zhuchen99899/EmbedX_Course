@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "extimer.h": "c",
+        "stddef.h": "c",
+        "stdbool.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "stm32f1xx_it.h": "c",
+        "stm32f1xx_hal.h": "c"
+    }
+}
