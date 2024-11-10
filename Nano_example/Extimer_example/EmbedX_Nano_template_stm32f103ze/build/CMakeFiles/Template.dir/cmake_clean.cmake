@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Template.dir/EmbedX_Nano/Exlib/ExUtils/exUtils.c.obj"
+  "CMakeFiles/Template.dir/EmbedX_Nano/Exlib/ExUtils/exUtils.c.obj.d"
+  "CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.obj"
+  "CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.obj.d"
   "CMakeFiles/Template.dir/app/main.c.obj"
   "CMakeFiles/Template.dir/app/main.c.obj.d"
   "CMakeFiles/Template.dir/platform/mcu/stm32f103ze/bsp/delay/delay.c.obj"

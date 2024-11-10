@@ -14,7 +14,7 @@
 #include "string.h"
 
 // ExTimer system tick
-volatile static uint32_t sysTickUptime = 0;
+static volatile uint32_t sysTickUptime = 0;
 
 /**
  * @brief  create a timer manager (cycle list)

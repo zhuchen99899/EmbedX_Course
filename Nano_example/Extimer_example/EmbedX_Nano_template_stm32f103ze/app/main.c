@@ -2,6 +2,7 @@
 #include "sys.h"
 #include "delay.h"
 #include "ExTimer.h"
+#include "exUtils.h"
 exTimerManager_t ExTimerManager_handle;
 
         // HAL_GPIO_WritePin(GPIOB,GPIO_PIN_5,GPIO_PIN_RESET); 	//LED0��Ӧ����PB5���ͣ�������ͬ��LED0(0)
@@ -12,6 +13,7 @@ exTimerManager_t ExTimerManager_handle;
         // delay_ms(500);  
 void LED_blinky(void *arg)
 {
+    UNUSED(arg);//(void) arg; 
     static int i;
     
     if(i==1)
@@ -29,7 +31,7 @@ void LED_blinky(void *arg)
 void LED_blinky2(void *arg)
 {
     static int i;
-    
+    UNUSED(arg);//(void) arg; 
     if(i==1)
     {
         HAL_GPIO_WritePin(GPIOE,GPIO_PIN_5,GPIO_PIN_SET);
@@ -54,11 +56,11 @@ int main()
     exTimer_t LEDtimer2;
     exTimerAttr_t LEDtimer_attr;
     exTimerAttr_t LEDtimer_attr2;
-    LEDtimer_attr.name="LED_blinky";
+    LEDtimer_attr.name=(const unsigned char *)"LED_blinky";
     LEDtimer_attr.interval=1000;
     LEDtimer_attr.Enable=1;
 
-    LEDtimer_attr2.name="LED_blinky2";
+    LEDtimer_attr2.name=(const unsigned char *)"LED_blinky2";
     LEDtimer_attr2.interval=2000;
     LEDtimer_attr2.Enable=1;
 

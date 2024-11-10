@@ -111,23 +111,23 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/CMSIS/Include"
+					"path" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/CMSIS/Include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Inc"
+					"path" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/../core/include"
+					"path" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/../core/include"
 				}
 			],
 			"language" : "C",
@@ -172,23 +172,23 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/CMSIS/Include"
+					"path" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/CMSIS/Include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Inc"
+					"path" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/../core/include"
+					"path" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries/../core/include"
 				}
 			],
 			"language" : "ASM",

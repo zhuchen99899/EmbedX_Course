@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/build"
+			"value" : "d:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -667,7 +667,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/build/CMakeFiles/pkgRedirects"
+			"value" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -727,7 +727,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze"
+			"value" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -879,7 +879,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/project/GCC/scripts/cmake/armgcc_cm3.cmake"
+			"value" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/project/GCC/scripts/cmake/armgcc_cm3.cmake"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1267,7 +1267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/build"
+			"value" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/build"
 		},
 		{
 			"name" : "Template_IS_TOP_LEVEL",
@@ -1291,7 +1291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze"
+			"value" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze"
 		},
 		{
 			"name" : "__CHIP_TYPE__",

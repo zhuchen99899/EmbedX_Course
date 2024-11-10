@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "sys.h": "c"
+        "sys.h": "c",
+        "extimer.h": "c",
+        "exutils.h": "c"
     }
 }

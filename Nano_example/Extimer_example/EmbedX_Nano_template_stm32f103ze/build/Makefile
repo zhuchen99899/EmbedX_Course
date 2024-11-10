@@ -56,10 +56,10 @@ RM = D:\software\Embedded_tools\STM32CubeCLT_1.16.0\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze
+CMAKE_SOURCE_DIR = D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build
+CMAKE_BINARY_DIR = D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -112,7 +112,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles\VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles\VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
@@ -154,6 +154,67 @@ stm32f10x_hal: cmake_check_build_system
 stm32f10x_hal/fast:
 	$(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/build
 .PHONY : stm32f10x_hal/fast
+
+#=============================================================================
+# Target rules for targets named EmbedX_Nano
+
+# Build rule for target.
+EmbedX_Nano: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 EmbedX_Nano
+.PHONY : EmbedX_Nano
+
+# fast build rule for target.
+EmbedX_Nano/fast:
+	$(MAKE) $(MAKESILENT) -f EmbedX_Nano\CMakeFiles\EmbedX_Nano.dir\build.make EmbedX_Nano/CMakeFiles/EmbedX_Nano.dir/build
+.PHONY : EmbedX_Nano/fast
+
+EmbedX_Nano/Exlib/ExUtils/exUtils.obj: EmbedX_Nano/Exlib/ExUtils/exUtils.c.obj
+.PHONY : EmbedX_Nano/Exlib/ExUtils/exUtils.obj
+
+# target to build an object file
+EmbedX_Nano/Exlib/ExUtils/exUtils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/Exlib/ExUtils/exUtils.c.obj
+.PHONY : EmbedX_Nano/Exlib/ExUtils/exUtils.c.obj
+
+EmbedX_Nano/Exlib/ExUtils/exUtils.i: EmbedX_Nano/Exlib/ExUtils/exUtils.c.i
+.PHONY : EmbedX_Nano/Exlib/ExUtils/exUtils.i
+
+# target to preprocess a source file
+EmbedX_Nano/Exlib/ExUtils/exUtils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/Exlib/ExUtils/exUtils.c.i
+.PHONY : EmbedX_Nano/Exlib/ExUtils/exUtils.c.i
+
+EmbedX_Nano/Exlib/ExUtils/exUtils.s: EmbedX_Nano/Exlib/ExUtils/exUtils.c.s
+.PHONY : EmbedX_Nano/Exlib/ExUtils/exUtils.s
+
+# target to generate assembly for a file
+EmbedX_Nano/Exlib/ExUtils/exUtils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/Exlib/ExUtils/exUtils.c.s
+.PHONY : EmbedX_Nano/Exlib/ExUtils/exUtils.c.s
+
+EmbedX_Nano/component/Extimer/ExTimer.obj: EmbedX_Nano/component/Extimer/ExTimer.c.obj
+.PHONY : EmbedX_Nano/component/Extimer/ExTimer.obj
+
+# target to build an object file
+EmbedX_Nano/component/Extimer/ExTimer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.obj
+.PHONY : EmbedX_Nano/component/Extimer/ExTimer.c.obj
+
+EmbedX_Nano/component/Extimer/ExTimer.i: EmbedX_Nano/component/Extimer/ExTimer.c.i
+.PHONY : EmbedX_Nano/component/Extimer/ExTimer.i
+
+# target to preprocess a source file
+EmbedX_Nano/component/Extimer/ExTimer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.i
+.PHONY : EmbedX_Nano/component/Extimer/ExTimer.c.i
+
+EmbedX_Nano/component/Extimer/ExTimer.s: EmbedX_Nano/component/Extimer/ExTimer.c.s
+.PHONY : EmbedX_Nano/component/Extimer/ExTimer.s
+
+# target to generate assembly for a file
+EmbedX_Nano/component/Extimer/ExTimer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.s
+.PHONY : EmbedX_Nano/component/Extimer/ExTimer.c.s
 
 app/main.obj: app/main.c.obj
 .PHONY : app/main.obj
@@ -627,9 +688,16 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... EmbedX_Nano
 	@echo ... Template
 	@echo ... bsp
 	@echo ... stm32f10x_hal
+	@echo ... EmbedX_Nano/Exlib/ExUtils/exUtils.obj
+	@echo ... EmbedX_Nano/Exlib/ExUtils/exUtils.i
+	@echo ... EmbedX_Nano/Exlib/ExUtils/exUtils.s
+	@echo ... EmbedX_Nano/component/Extimer/ExTimer.obj
+	@echo ... EmbedX_Nano/component/Extimer/ExTimer.i
+	@echo ... EmbedX_Nano/component/Extimer/ExTimer.s
 	@echo ... app/main.obj
 	@echo ... app/main.i
 	@echo ... app/main.s
@@ -699,7 +767,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles\VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles\VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

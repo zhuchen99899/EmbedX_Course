@@ -38,7 +38,7 @@ project(${__PROJ_NAME__} LANGUAGES C CXX ASM)
 #
 add_subdirectory(platform/mcu/stm32f103ze/bsp)
 add_subdirectory(platform/mcu/stm32f103ze/libraries) # libstm32f10x_hal.a
-
+add_subdirectory(EmbedX_Nano) # EmbedX_Nano.a
 
 
 
@@ -53,9 +53,11 @@ target_sources(${PROJECT_NAME} PRIVATE "${app_srcs}")
 
 target_include_directories(${PROJECT_NAME} PRIVATE "${CMAKE_CURRENT_LIST_DIR}/app")
 
-target_link_libraries(${PROJECT_NAME} PRIVATE "bsp" )
-target_link_libraries(${PROJECT_NAME} PRIVATE "stm32f10x_hal" )
 
+
+target_link_libraries(${PROJECT_NAME} PRIVATE "bsp" )
+target_link_libraries(${PROJECT_NAME} PRIVATE "stm32f10x_hal")
+target_link_libraries(${PROJECT_NAME} PRIVATE "EmbedX_Nano")
 
 
 
