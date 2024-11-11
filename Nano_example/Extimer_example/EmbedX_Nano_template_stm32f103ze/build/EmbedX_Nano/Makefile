@@ -154,29 +154,53 @@ Exlib/ExUtils/exUtils.c.s:
 	cd /d D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f EmbedX_Nano\CMakeFiles\EmbedX_Nano.dir\build.make EmbedX_Nano/CMakeFiles/EmbedX_Nano.dir/Exlib/ExUtils/exUtils.c.s
 .PHONY : Exlib/ExUtils/exUtils.c.s
 
-component/Extimer/ExTimer.obj: component/Extimer/ExTimer.c.obj
-.PHONY : component/Extimer/ExTimer.obj
+component/ExFsm/exFsm.obj: component/ExFsm/exFsm.c.obj
+.PHONY : component/ExFsm/exFsm.obj
 
 # target to build an object file
-component/Extimer/ExTimer.c.obj:
-	cd /d D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f EmbedX_Nano\CMakeFiles\EmbedX_Nano.dir\build.make EmbedX_Nano/CMakeFiles/EmbedX_Nano.dir/component/Extimer/ExTimer.c.obj
-.PHONY : component/Extimer/ExTimer.c.obj
+component/ExFsm/exFsm.c.obj:
+	cd /d D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f EmbedX_Nano\CMakeFiles\EmbedX_Nano.dir\build.make EmbedX_Nano/CMakeFiles/EmbedX_Nano.dir/component/ExFsm/exFsm.c.obj
+.PHONY : component/ExFsm/exFsm.c.obj
 
-component/Extimer/ExTimer.i: component/Extimer/ExTimer.c.i
-.PHONY : component/Extimer/ExTimer.i
+component/ExFsm/exFsm.i: component/ExFsm/exFsm.c.i
+.PHONY : component/ExFsm/exFsm.i
 
 # target to preprocess a source file
-component/Extimer/ExTimer.c.i:
-	cd /d D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f EmbedX_Nano\CMakeFiles\EmbedX_Nano.dir\build.make EmbedX_Nano/CMakeFiles/EmbedX_Nano.dir/component/Extimer/ExTimer.c.i
-.PHONY : component/Extimer/ExTimer.c.i
+component/ExFsm/exFsm.c.i:
+	cd /d D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f EmbedX_Nano\CMakeFiles\EmbedX_Nano.dir\build.make EmbedX_Nano/CMakeFiles/EmbedX_Nano.dir/component/ExFsm/exFsm.c.i
+.PHONY : component/ExFsm/exFsm.c.i
 
-component/Extimer/ExTimer.s: component/Extimer/ExTimer.c.s
-.PHONY : component/Extimer/ExTimer.s
+component/ExFsm/exFsm.s: component/ExFsm/exFsm.c.s
+.PHONY : component/ExFsm/exFsm.s
 
 # target to generate assembly for a file
-component/Extimer/ExTimer.c.s:
-	cd /d D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f EmbedX_Nano\CMakeFiles\EmbedX_Nano.dir\build.make EmbedX_Nano/CMakeFiles/EmbedX_Nano.dir/component/Extimer/ExTimer.c.s
-.PHONY : component/Extimer/ExTimer.c.s
+component/ExFsm/exFsm.c.s:
+	cd /d D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f EmbedX_Nano\CMakeFiles\EmbedX_Nano.dir\build.make EmbedX_Nano/CMakeFiles/EmbedX_Nano.dir/component/ExFsm/exFsm.c.s
+.PHONY : component/ExFsm/exFsm.c.s
+
+component/ExTimer/exTimer.obj: component/ExTimer/exTimer.c.obj
+.PHONY : component/ExTimer/exTimer.obj
+
+# target to build an object file
+component/ExTimer/exTimer.c.obj:
+	cd /d D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f EmbedX_Nano\CMakeFiles\EmbedX_Nano.dir\build.make EmbedX_Nano/CMakeFiles/EmbedX_Nano.dir/component/ExTimer/exTimer.c.obj
+.PHONY : component/ExTimer/exTimer.c.obj
+
+component/ExTimer/exTimer.i: component/ExTimer/exTimer.c.i
+.PHONY : component/ExTimer/exTimer.i
+
+# target to preprocess a source file
+component/ExTimer/exTimer.c.i:
+	cd /d D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f EmbedX_Nano\CMakeFiles\EmbedX_Nano.dir\build.make EmbedX_Nano/CMakeFiles/EmbedX_Nano.dir/component/ExTimer/exTimer.c.i
+.PHONY : component/ExTimer/exTimer.c.i
+
+component/ExTimer/exTimer.s: component/ExTimer/exTimer.c.s
+.PHONY : component/ExTimer/exTimer.s
+
+# target to generate assembly for a file
+component/ExTimer/exTimer.c.s:
+	cd /d D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f EmbedX_Nano\CMakeFiles\EmbedX_Nano.dir\build.make EmbedX_Nano/CMakeFiles/EmbedX_Nano.dir/component/ExTimer/exTimer.c.s
+.PHONY : component/ExTimer/exTimer.c.s
 
 # Help Target
 help:
@@ -190,9 +214,12 @@ help:
 	@echo ... Exlib/ExUtils/exUtils.obj
 	@echo ... Exlib/ExUtils/exUtils.i
 	@echo ... Exlib/ExUtils/exUtils.s
-	@echo ... component/Extimer/ExTimer.obj
-	@echo ... component/Extimer/ExTimer.i
-	@echo ... component/Extimer/ExTimer.s
+	@echo ... component/ExFsm/exFsm.obj
+	@echo ... component/ExFsm/exFsm.i
+	@echo ... component/ExFsm/exFsm.s
+	@echo ... component/ExTimer/exTimer.obj
+	@echo ... component/ExTimer/exTimer.i
+	@echo ... component/ExTimer/exTimer.s
 .PHONY : help
 
 

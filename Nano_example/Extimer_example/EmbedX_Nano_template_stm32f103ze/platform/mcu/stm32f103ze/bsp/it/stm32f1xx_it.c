@@ -141,7 +141,7 @@ void PendSV_Handler(void)
 void SysTick_Handler(void)
 {
   HAL_IncTick();
-  exTimer_tick_inc();
+  exTimer_tick_inc(1);
 }
 
 /******************************************************************************/

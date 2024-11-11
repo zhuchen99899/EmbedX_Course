@@ -1,8 +1,8 @@
 
 #include "sys.h"
 #include "delay.h"
-#include "ExTimer.h"
-#include "exUtils.h"
+#include "exTimer.h"
+
 exTimerManager_t ExTimerManager_handle;
 
         // HAL_GPIO_WritePin(GPIOB,GPIO_PIN_5,GPIO_PIN_RESET); 	//LED0��Ӧ����PB5���ͣ�������ͬ��LED0(0)
@@ -69,8 +69,8 @@ int main()
     exTimer_add(&ExTimerManager_handle,&LEDtimer);
     exTimer_add(&ExTimerManager_handle,&LEDtimer2);
 
-
-
+    // disableExTimer(&ExTimerManager_handle,(const unsigned char *)"LED_blinky");
+    // setExTimerInterval(&ExTimerManager_handle,(const unsigned char *)"LED_blinky2",500);
 
 	GPIO_InitTypeDef GPIO_Initure;
     __HAL_RCC_GPIOB_CLK_ENABLE();           	//����GPIOBʱ��

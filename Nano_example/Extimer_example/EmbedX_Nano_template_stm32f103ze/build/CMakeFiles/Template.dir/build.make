@@ -361,19 +361,33 @@ CMakeFiles/Template.dir/EmbedX_Nano/Exlib/ExUtils/exUtils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Template.dir/EmbedX_Nano/Exlib/ExUtils/exUtils.c.s"
 	D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\Exlib\ExUtils\exUtils.c -o CMakeFiles\Template.dir\EmbedX_Nano\Exlib\ExUtils\exUtils.c.s
 
-CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.obj: CMakeFiles/Template.dir/flags.make
-CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.obj: D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/EmbedX_Nano/component/Extimer/ExTimer.c
-CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.obj: CMakeFiles/Template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.obj"
-	D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.obj -MF CMakeFiles\Template.dir\EmbedX_Nano\component\Extimer\ExTimer.c.obj.d -o CMakeFiles\Template.dir\EmbedX_Nano\component\Extimer\ExTimer.c.obj -c D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\Extimer\ExTimer.c
+CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.obj: CMakeFiles/Template.dir/flags.make
+CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.obj: D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/EmbedX_Nano/component/ExFsm/exFsm.c
+CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.obj: CMakeFiles/Template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.obj"
+	D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.obj -MF CMakeFiles\Template.dir\EmbedX_Nano\component\ExFsm\exFsm.c.obj.d -o CMakeFiles\Template.dir\EmbedX_Nano\component\ExFsm\exFsm.c.obj -c D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\ExFsm\exFsm.c
 
-CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.i"
-	D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\Extimer\ExTimer.c > CMakeFiles\Template.dir\EmbedX_Nano\component\Extimer\ExTimer.c.i
+CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.i"
+	D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\ExFsm\exFsm.c > CMakeFiles\Template.dir\EmbedX_Nano\component\ExFsm\exFsm.c.i
 
-CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.s"
-	D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\Extimer\ExTimer.c -o CMakeFiles\Template.dir\EmbedX_Nano\component\Extimer\ExTimer.c.s
+CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.s"
+	D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\ExFsm\exFsm.c -o CMakeFiles\Template.dir\EmbedX_Nano\component\ExFsm\exFsm.c.s
+
+CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.obj: CMakeFiles/Template.dir/flags.make
+CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.obj: D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/EmbedX_Nano/component/ExTimer/exTimer.c
+CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.obj: CMakeFiles/Template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.obj"
+	D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.obj -MF CMakeFiles\Template.dir\EmbedX_Nano\component\ExTimer\exTimer.c.obj.d -o CMakeFiles\Template.dir\EmbedX_Nano\component\ExTimer\exTimer.c.obj -c D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\ExTimer\exTimer.c
+
+CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.i"
+	D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\ExTimer\exTimer.c > CMakeFiles\Template.dir\EmbedX_Nano\component\ExTimer\exTimer.c.i
+
+CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.s"
+	D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\ExTimer\exTimer.c -o CMakeFiles\Template.dir\EmbedX_Nano\component\ExTimer\exTimer.c.s
 
 # Object files for target Template
 Template_OBJECTS = \
@@ -398,7 +412,8 @@ Template_OBJECTS = \
 "CMakeFiles/Template.dir/platform/mcu/stm32f103ze/core/system_stm32f1xx.c.obj" \
 "CMakeFiles/Template.dir/platform/mcu/stm32f103ze/core/GCC/startup_stm32f103xe.s.obj" \
 "CMakeFiles/Template.dir/EmbedX_Nano/Exlib/ExUtils/exUtils.c.obj" \
-"CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.obj"
+"CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.obj" \
+"CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.obj"
 
 # External object files for target Template
 Template_EXTERNAL_OBJECTS =
@@ -424,13 +439,14 @@ project/GCC/output/Template.elf: CMakeFiles/Template.dir/platform/mcu/stm32f103z
 project/GCC/output/Template.elf: CMakeFiles/Template.dir/platform/mcu/stm32f103ze/core/system_stm32f1xx.c.obj
 project/GCC/output/Template.elf: CMakeFiles/Template.dir/platform/mcu/stm32f103ze/core/GCC/startup_stm32f103xe.s.obj
 project/GCC/output/Template.elf: CMakeFiles/Template.dir/EmbedX_Nano/Exlib/ExUtils/exUtils.c.obj
-project/GCC/output/Template.elf: CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.obj
+project/GCC/output/Template.elf: CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.obj
+project/GCC/output/Template.elf: CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.obj
 project/GCC/output/Template.elf: CMakeFiles/Template.dir/build.make
 project/GCC/output/Template.elf: platform/mcu/stm32f103ze/bsp/libbsp.a
 project/GCC/output/Template.elf: platform/mcu/stm32f103ze/libraries/libstm32f10x_hal.a
 project/GCC/output/Template.elf: EmbedX_Nano/libEmbedX_Nano.a
 project/GCC/output/Template.elf: CMakeFiles/Template.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable project\GCC\output\Template.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable project\GCC\output\Template.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Template.dir\link.txt --verbose=$(VERBOSE)
 	D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-objcopy.exe -Oihex D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/build/project/GCC/output/Template.elf D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/build/project/GCC/output/Template.hex
 	D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-objcopy.exe -Obinary D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/build/project/GCC/output/Template.elf D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/build/project/GCC/output/Template.bin

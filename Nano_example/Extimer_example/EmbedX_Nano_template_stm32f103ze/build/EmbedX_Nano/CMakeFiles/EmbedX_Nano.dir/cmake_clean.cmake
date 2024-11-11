@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EmbedX_Nano.dir/Exlib/ExUtils/exUtils.c.obj"
   "CMakeFiles/EmbedX_Nano.dir/Exlib/ExUtils/exUtils.c.obj.d"
-  "CMakeFiles/EmbedX_Nano.dir/component/Extimer/ExTimer.c.obj"
-  "CMakeFiles/EmbedX_Nano.dir/component/Extimer/ExTimer.c.obj.d"
+  "CMakeFiles/EmbedX_Nano.dir/component/ExFsm/exFsm.c.obj"
+  "CMakeFiles/EmbedX_Nano.dir/component/ExFsm/exFsm.c.obj.d"
+  "CMakeFiles/EmbedX_Nano.dir/component/ExTimer/exTimer.c.obj"
+  "CMakeFiles/EmbedX_Nano.dir/component/ExTimer/exTimer.c.obj.d"
   "libEmbedX_Nano.a"
   "libEmbedX_Nano.pdb"
 )

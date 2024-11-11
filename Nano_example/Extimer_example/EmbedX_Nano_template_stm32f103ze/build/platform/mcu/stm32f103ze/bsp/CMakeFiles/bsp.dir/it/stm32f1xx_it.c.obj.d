@@ -32,4 +32,4 @@ platform/mcu/stm32f103ze/bsp/CMakeFiles/bsp.dir/it/stm32f1xx_it.c.obj: \
  D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\platform\mcu\stm32f103ze\libraries\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h \
  D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\platform\mcu\stm32f103ze\libraries\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h \
  D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\platform\mcu\stm32f103ze\bsp\it\stm32f1xx_it.h \
- D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\Extimer/Extimer.h
+ D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\ExTimer/Extimer.h

@@ -106,7 +106,7 @@
         "name": "Ex_component",
         "files": [
           {
-            "path": "../../EmbedX_Nano/component/Extimer/ExTimer.c"
+            "path": "../../EmbedX_Nano/component/ExTimer/exTimer.c"
           }
         ],
         "folders": []

@@ -1,0 +1,138 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "platform/mcu/stm32f103ze/bsp",
+					"jsonFile" : "directory-platform.mcu.stm32f103ze.bsp-Debug-f860821929a7069edd6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "platform/mcu/stm32f103ze/bsp",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "platform/mcu/stm32f103ze/libraries",
+					"jsonFile" : "directory-platform.mcu.stm32f103ze.libraries-Debug-9ef6a4e5eea342f852c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "platform/mcu/stm32f103ze/libraries",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "EmbedX_Nano",
+					"jsonFile" : "directory-EmbedX_Nano-Debug-f408dc268516efa93ebb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "EmbedX_Nano",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "Template",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "EmbedX_Nano::@2e5962701671c946a614",
+					"jsonFile" : "target-EmbedX_Nano-Debug-29c2683e8e67cabd29ab.json",
+					"name" : "EmbedX_Nano",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Template::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Template-Debug-0dd6e88ad890daf57898.json",
+					"name" : "Template",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bsp::@abbd8f8b57e738f42b0f",
+					"jsonFile" : "target-bsp-Debug-df50d23adde2ad32db21.json",
+					"name" : "bsp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "stm32f10x_hal::@ed41b46213003a4463a1",
+					"jsonFile" : "target-stm32f10x_hal-Debug-313384d6b3813f8c2e03.json",
+					"name" : "stm32f10x_hal",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze/build",
+		"source" : "D:/code/Embedded/EmbedX/Nano_example/Extimer_example/EmbedX_Nano_template_stm32f103ze"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

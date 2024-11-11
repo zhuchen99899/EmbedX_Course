@@ -1,6 +1,6 @@
-platform/mcu/stm32f103ze/bsp/CMakeFiles/bsp.dir/__/__/__/__/EmbedX_Nano/component/Extimer/ExTimer.c.obj: \
- D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\Extimer\ExTimer.c \
- D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\Extimer\ExTimer.h \
+platform/mcu/stm32f103ze/bsp/CMakeFiles/bsp.dir/__/__/__/__/EmbedX_Nano/component/ExTimer/exTimer.c.obj: \
+ D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\ExTimer\exTimer.c \
+ D:\code\Embedded\EmbedX\Nano_example\Extimer_example\EmbedX_Nano_template_stm32f103ze\EmbedX_Nano\component\ExTimer\exTimer.h \
  d:\software\embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  d:\software\embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\arm-none-eabi\include\stdint.h \
  d:\software\embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\arm-none-eabi\include\machine\_default_types.h \

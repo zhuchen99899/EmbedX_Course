@@ -192,29 +192,53 @@ EmbedX_Nano/Exlib/ExUtils/exUtils.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/Exlib/ExUtils/exUtils.c.s
 .PHONY : EmbedX_Nano/Exlib/ExUtils/exUtils.c.s
 
-EmbedX_Nano/component/Extimer/ExTimer.obj: EmbedX_Nano/component/Extimer/ExTimer.c.obj
-.PHONY : EmbedX_Nano/component/Extimer/ExTimer.obj
+EmbedX_Nano/component/ExFsm/exFsm.obj: EmbedX_Nano/component/ExFsm/exFsm.c.obj
+.PHONY : EmbedX_Nano/component/ExFsm/exFsm.obj
 
 # target to build an object file
-EmbedX_Nano/component/Extimer/ExTimer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.obj
-.PHONY : EmbedX_Nano/component/Extimer/ExTimer.c.obj
+EmbedX_Nano/component/ExFsm/exFsm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.obj
+.PHONY : EmbedX_Nano/component/ExFsm/exFsm.c.obj
 
-EmbedX_Nano/component/Extimer/ExTimer.i: EmbedX_Nano/component/Extimer/ExTimer.c.i
-.PHONY : EmbedX_Nano/component/Extimer/ExTimer.i
+EmbedX_Nano/component/ExFsm/exFsm.i: EmbedX_Nano/component/ExFsm/exFsm.c.i
+.PHONY : EmbedX_Nano/component/ExFsm/exFsm.i
 
 # target to preprocess a source file
-EmbedX_Nano/component/Extimer/ExTimer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.i
-.PHONY : EmbedX_Nano/component/Extimer/ExTimer.c.i
+EmbedX_Nano/component/ExFsm/exFsm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.i
+.PHONY : EmbedX_Nano/component/ExFsm/exFsm.c.i
 
-EmbedX_Nano/component/Extimer/ExTimer.s: EmbedX_Nano/component/Extimer/ExTimer.c.s
-.PHONY : EmbedX_Nano/component/Extimer/ExTimer.s
+EmbedX_Nano/component/ExFsm/exFsm.s: EmbedX_Nano/component/ExFsm/exFsm.c.s
+.PHONY : EmbedX_Nano/component/ExFsm/exFsm.s
 
 # target to generate assembly for a file
-EmbedX_Nano/component/Extimer/ExTimer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/component/Extimer/ExTimer.c.s
-.PHONY : EmbedX_Nano/component/Extimer/ExTimer.c.s
+EmbedX_Nano/component/ExFsm/exFsm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/component/ExFsm/exFsm.c.s
+.PHONY : EmbedX_Nano/component/ExFsm/exFsm.c.s
+
+EmbedX_Nano/component/ExTimer/exTimer.obj: EmbedX_Nano/component/ExTimer/exTimer.c.obj
+.PHONY : EmbedX_Nano/component/ExTimer/exTimer.obj
+
+# target to build an object file
+EmbedX_Nano/component/ExTimer/exTimer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.obj
+.PHONY : EmbedX_Nano/component/ExTimer/exTimer.c.obj
+
+EmbedX_Nano/component/ExTimer/exTimer.i: EmbedX_Nano/component/ExTimer/exTimer.c.i
+.PHONY : EmbedX_Nano/component/ExTimer/exTimer.i
+
+# target to preprocess a source file
+EmbedX_Nano/component/ExTimer/exTimer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.i
+.PHONY : EmbedX_Nano/component/ExTimer/exTimer.c.i
+
+EmbedX_Nano/component/ExTimer/exTimer.s: EmbedX_Nano/component/ExTimer/exTimer.c.s
+.PHONY : EmbedX_Nano/component/ExTimer/exTimer.s
+
+# target to generate assembly for a file
+EmbedX_Nano/component/ExTimer/exTimer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/EmbedX_Nano/component/ExTimer/exTimer.c.s
+.PHONY : EmbedX_Nano/component/ExTimer/exTimer.c.s
 
 app/main.obj: app/main.c.obj
 .PHONY : app/main.obj
@@ -695,9 +719,12 @@ help:
 	@echo ... EmbedX_Nano/Exlib/ExUtils/exUtils.obj
 	@echo ... EmbedX_Nano/Exlib/ExUtils/exUtils.i
 	@echo ... EmbedX_Nano/Exlib/ExUtils/exUtils.s
-	@echo ... EmbedX_Nano/component/Extimer/ExTimer.obj
-	@echo ... EmbedX_Nano/component/Extimer/ExTimer.i
-	@echo ... EmbedX_Nano/component/Extimer/ExTimer.s
+	@echo ... EmbedX_Nano/component/ExFsm/exFsm.obj
+	@echo ... EmbedX_Nano/component/ExFsm/exFsm.i
+	@echo ... EmbedX_Nano/component/ExFsm/exFsm.s
+	@echo ... EmbedX_Nano/component/ExTimer/exTimer.obj
+	@echo ... EmbedX_Nano/component/ExTimer/exTimer.i
+	@echo ... EmbedX_Nano/component/ExTimer/exTimer.s
 	@echo ... app/main.obj
 	@echo ... app/main.i
 	@echo ... app/main.s

@@ -13,7 +13,7 @@ add_library(${LIB_NAME} STATIC "")
 
 target_sources(${LIB_NAME} PUBLIC "${C_FILES}")
 
-target_include_directories(${LIB_NAME} PUBLIC "${CMAKE_CURRENT_LIST_DIR}/component/Extimer")
+target_include_directories(${LIB_NAME} PUBLIC "${CMAKE_CURRENT_LIST_DIR}/component/ExTimer")
 target_include_directories(${LIB_NAME} PUBLIC "${CMAKE_CURRENT_LIST_DIR}/ExLib/ExUtils")
 
 

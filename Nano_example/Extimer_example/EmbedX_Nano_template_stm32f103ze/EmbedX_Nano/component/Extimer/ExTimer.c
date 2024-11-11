@@ -1,5 +1,5 @@
 /**
- * @file ExTimer.c
+ * @file exTimer.c
  * @author ZC (387646983@qq.com)
  * @brief 
  * @version 0.1
@@ -8,16 +8,19 @@
  * @copyright Copyright (c) 2024
  * 
  */
-#include "ExTimer.h"
+#include "exTimer.h"
 #include "stdlib.h"
 #include "stddef.h"
 #include "string.h"
+
+
+
 
 // ExTimer system tick
 static volatile uint32_t sysTickUptime = 0;
 
 /**
- * @brief  create a timer manager (cycle list)
+ * @brief  create a  ExTimer list manager (cycle list)
  * 
  * @return exTimerManager_t 
  */
@@ -29,6 +32,13 @@ manager.tail=NULL;
 return manager;
 }
 
+/**
+ * @brief init exTimer 
+ * 
+ * @param extimer exTimer structure
+ * @param attr  exTimer attribute
+ * @param callback  when exTimer is triggered ,invoke callback function
+ */
 void exTimer_init(exTimer_t *extimer,exTimerAttr_t *attr,onTimeout_f callback)
 {
     extimer->attr = attr;
@@ -40,7 +50,7 @@ void exTimer_init(exTimer_t *extimer,exTimerAttr_t *attr,onTimeout_f callback)
 /**
  * @brief add new timer to the manager 
  * 
- * @param manager List
+ * @param manager the ExTimer list manager
  * @param newTimer new timer
  * @note add to the cycle list
  */
@@ -62,9 +72,15 @@ void exTimer_add(exTimerManager_t* manager,exTimer_t *newTimer)
         newNode->next = manager->head;  // cycle
         manager->tail = newNode;
     }
-
 }
 
+/**
+ * @brief find the name of the timer in the List 
+ * 
+ * @param manager  the ExTimer list manager
+ * @param name  ExTimer name
+ * @return exTimerNode_t*  extimer list node
+ */
 static exTimerNode_t* findExTimer(exTimerManager_t* manager, const uint8_t* name) {
     if (manager->head == NULL) return NULL;
 
@@ -76,32 +92,37 @@ static exTimerNode_t* findExTimer(exTimerManager_t* manager, const uint8_t* name
         current = current->next;
     } while (current != manager->head);
 
-    return NULL; // 未找到匹配的定时器
+    return NULL; // can't find matching exTimerNode
 }
 
+/**
+ * @brief remove the Extimer from the list
+ * 
+ * @param manager  the ExTimer list manager
+ * @param name  ExTimer Name 
+ */
 void exTimer_remove(exTimerManager_t* manager,const uint8_t* name) {
-    if (manager->head == NULL) return; // 链表为空
+    if (manager->head == NULL) return; // extimer is NULL
     exTimerNode_t* timerNodeToRemove = findExTimer(manager, name);
     exTimerNode_t* current = manager->head;
 
     exTimerNode_t* prev = manager->tail;
-
     do {
         if (current == timerNodeToRemove) {
             if (current == manager->head && current == manager->tail) {
-                // 链表只有一个节点的情况
+                // the List only have one node 
                 manager->head = NULL;
                 manager->tail = NULL;
             } else {
                 if (current == manager->head) {
-                    // 删除头节点的情况
+                    // remove the head node 
                     manager->head = current->next;
                     manager->tail->next = manager->head;
                 } else {
-                    // 删除非头节点的情况
+                    // remove the nonHead Nodes
                     prev->next = current->next;
                     if (current == manager->tail) {
-                        // 如果删除的是尾节点，更新尾指针
+                        // if remove the tail node , fresh new tail node
                         manager->tail = prev;
                     }
                 }
@@ -115,22 +136,40 @@ void exTimer_remove(exTimerManager_t* manager,const uint8_t* name) {
 }
 
 
-
+/**
+ * @brief  enable the Extimer from the list
+ * 
+ * @param manager the ExTimer list manager
+ * @param name ExTimer Name 
+ */
 void enableExTimer(exTimerManager_t* manager, const uint8_t* name) {
     exTimerNode_t* timerNode = findExTimer(manager, name);
     if (timerNode != NULL) {
-        timerNode->timer->attr->Enable = 1; // 设置使能标志
+        timerNode->timer->attr->Enable = 1; // enable ExTimer
     }
 }
 
+/**
+ * @brief disable the Extimer from the list
+ * 
+ * @param manager the ExTimer list manager
+ * @param name ExTimer Name 
+ */
 void disableExTimer(exTimerManager_t* manager, const uint8_t* name) {
     exTimerNode_t* timerNode = findExTimer(manager, name);
     if (timerNode != NULL) {
-        timerNode->timer->attr->Enable = 0; // 取消使能标志
+        timerNode->timer->attr->Enable = 0; // disable ExTimer
     }
 }
 
 
+/**
+ * @brief Set the ExTimer timing Interval
+ * 
+ * @param manager  the ExTimer list manager
+ * @param name ExTimer Name 
+ * @param set_interval timing Interval to set
+ */
 void setExTimerInterval(exTimerManager_t* manager, const uint8_t* name,uint32_t set_interval)
 {
     exTimerNode_t* timerNode = findExTimer(manager, name);
@@ -140,28 +179,32 @@ void setExTimerInterval(exTimerManager_t* manager, const uint8_t* name,uint32_t 
 }
 
 /**
-  * @brief  时间差判定
-  * @param  nowTick:当前时间
-  * @param  prevTick:上一个时间
-  * @retval 时间差
+  * @brief  caculate time tick deviation 
+  * @param  nowTick: now time tick
+  * @param  prevTick:previous time tick
+  * @retval time tick deviation 
   */
 static uint32_t GetTickElaps(uint32_t nowTick, uint32_t prevTick)
 {
     uint32_t actTime = nowTick;
 
     if(actTime >= prevTick)
-    { //没有溢出
+    { //don't overflow
         prevTick = actTime - prevTick;
     }
     else
-    {  //产生溢出
+    {  //overflow
         prevTick = /*UINT32_MAX*/0xFFFFFFFF - prevTick + 1;
         prevTick += actTime;
     }
 
     return prevTick;
 }
-
+/**
+ * @brief  Polling all Extimer for Extimerlist
+ * 
+ * @param manager  the ExTimer list manager
+ */
 void pollingExTimer(exTimerManager_t* manager) {
     if (manager->head == NULL) return;
 
@@ -171,11 +214,12 @@ void pollingExTimer(exTimerManager_t* manager) {
             // timer must be enabled
             uint32_t elapsTime = GetTickElaps(sysTickUptime,current->timer->TickPrev);
             if ( elapsTime>= current->timer->attr->interval) {
+                    //The setting interval time has come
 
-                // 更新定时器的上一次触发时间
+                // fresh timer previous time ticks
                 current->timer->TickPrev = sysTickUptime;
-                // 触发回调函数
-
+                
+                // trigger timer callback
                 current->timer->timer_callback((void *)current->timer);
      
             }
@@ -184,8 +228,14 @@ void pollingExTimer(exTimerManager_t* manager) {
     } while (current != manager->head);
 }
 
-void exTimer_tick_inc(void){
 
-sysTickUptime=sysTickUptime+1;
+/**
+ * @brief interface for Extimer 
+ * 
+ * @param tick_base  Extiemr tick base
+ */
+void exTimer_tick_inc(uint32_t tick_base){
+
+sysTickUptime=sysTickUptime+tick_base;
 
 }
