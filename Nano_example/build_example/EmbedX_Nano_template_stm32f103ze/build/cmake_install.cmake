@@ -1,4 +1,4 @@
-# Install script for directory: D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze
+# Install script for directory: D:/code/Embedded/EmbedX/Nano_example/build_example/EmbedX_Nano_template_stm32f103ze
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/build/platform/mcu/stm32f103ze/bsp/cmake_install.cmake")
+  include("D:/code/Embedded/EmbedX/Nano_example/build_example/EmbedX_Nano_template_stm32f103ze/build/platform/mcu/stm32f103ze/bsp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/build/platform/mcu/stm32f103ze/libraries/cmake_install.cmake")
+  include("D:/code/Embedded/EmbedX/Nano_example/build_example/EmbedX_Nano_template_stm32f103ze/build/platform/mcu/stm32f103ze/libraries/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/code/Embedded/EmbedX/Nano_example/build_example/EmbedX_Nano_template_stm32f103ze/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

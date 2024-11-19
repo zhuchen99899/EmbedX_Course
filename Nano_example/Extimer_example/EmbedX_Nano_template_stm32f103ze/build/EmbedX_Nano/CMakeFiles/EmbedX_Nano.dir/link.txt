@@ -1,2 +1,0 @@
-D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-ar.exe qc libEmbedX_Nano.a CMakeFiles/EmbedX_Nano.dir/Exlib/ExUtils/exUtils.c.obj CMakeFiles/EmbedX_Nano.dir/component/ExFsm/exFsm.c.obj CMakeFiles/EmbedX_Nano.dir/component/ExTimer/exTimer.c.obj
-D:\software\Embedded_tools\qp\qp\qtools\gnu_arm-none-eabi\bin\arm-none-eabi-ranlib.exe libEmbedX_Nano.a

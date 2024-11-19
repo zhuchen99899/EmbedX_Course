@@ -56,10 +56,10 @@ RM = D:\software\Embedded_tools\STM32CubeCLT_1.16.0\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze
+CMAKE_SOURCE_DIR = D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build
+CMAKE_BINARY_DIR = D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\platform\mcu\stm32f103ze\libraries\\CMakeFiles\progress.marks
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 platform/mcu/stm32f103ze/libraries/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 0
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\platform\mcu\stm32f103ze\libraries\\CMakeFiles\progress.marks
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 platform/mcu/stm32f103ze/libraries/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 platform/mcu/stm32f103ze/libraries/clean
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 platform/mcu/stm32f103ze/libraries/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,23 +102,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 platform/mcu/stm32f103ze/libraries/preinstall
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 platform/mcu/stm32f103ze/libraries/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 platform/mcu/stm32f103ze/libraries/preinstall
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 platform/mcu/stm32f103ze/libraries/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(CMAKE_COMMAND) -P D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles\VerifyGlobs.cmake
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(CMAKE_COMMAND) -P D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles\VerifyGlobs.cmake
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/rule:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/rule
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/rule
 .PHONY : platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ stm32f10x_hal: platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/r
 
 # fast build rule for target.
 stm32f10x_hal/fast:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/build
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/build
 .PHONY : stm32f10x_hal/fast
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -135,7 +135,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_h
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i
@@ -143,7 +143,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s
@@ -151,7 +151,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
@@ -159,7 +159,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj: STM32F1xx_HAL_Driver/Src/stm3
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i
@@ -167,7 +167,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i: STM32F1xx_HAL_Driver/Src/stm32f
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s
@@ -175,7 +175,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.s: STM32F1xx_HAL_Driver/Src/stm32f
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
@@ -183,7 +183,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj: STM32F1xx_HAL_Driver/Src/stm32f1
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i
@@ -191,7 +191,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i: STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s
@@ -199,7 +199,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.s: STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
@@ -207,7 +207,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj: STM32F1xx_HAL_Driver/Src/stm32f
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i
@@ -215,7 +215,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i: STM32F1xx_HAL_Driver/Src/stm32f1x
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s
@@ -223,7 +223,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.s: STM32F1xx_HAL_Driver/Src/stm32f1x
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
@@ -231,7 +231,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj: STM32F1xx_HAL_Driver/Src/stm32
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i
@@ -239,7 +239,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i: STM32F1xx_HAL_Driver/Src/stm32f1
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s
@@ -247,7 +247,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.s: STM32F1xx_HAL_Driver/Src/stm32f1
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
@@ -255,7 +255,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj: STM32F1xx_HAL_Driver/Src/st
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i
@@ -263,7 +263,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i: STM32F1xx_HAL_Driver/Src/stm3
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s
@@ -271,7 +271,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.s: STM32F1xx_HAL_Driver/Src/stm3
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
@@ -279,7 +279,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj: STM32F1xx_HAL_Driver/Src/stm32f
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i
@@ -287,7 +287,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i: STM32F1xx_HAL_Driver/Src/stm32f1x
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s
@@ -295,7 +295,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.s: STM32F1xx_HAL_Driver/Src/stm32f1x
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
@@ -303,7 +303,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj: STM32F1xx_HAL_Driver/Src/stm
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i
@@ -311,7 +311,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i: STM32F1xx_HAL_Driver/Src/stm32
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
@@ -319,7 +319,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s: STM32F1xx_HAL_Driver/Src/stm32
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
@@ -327,7 +327,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj: STM32F1xx_HAL_Driver/Src/stm32f1
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i
@@ -335,7 +335,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i: STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
@@ -343,7 +343,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s: STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
@@ -351,7 +351,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj: STM32F1xx_HAL_Driver/Src/stm32f1
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i
@@ -359,7 +359,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i: STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
@@ -367,7 +367,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.s: STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
@@ -375,7 +375,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj: STM32F1xx_HAL_Driver/Src/stm3
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i
@@ -383,7 +383,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i: STM32F1xx_HAL_Driver/Src/stm32f
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
@@ -391,7 +391,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s: STM32F1xx_HAL_Driver/Src/stm32f
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
@@ -399,7 +399,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj: STM32F1xx_HAL_Driver/Src/stm32f1
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i
@@ -407,7 +407,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.i: STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s
@@ -415,7 +415,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.s: STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
@@ -423,7 +423,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj: STM32F1xx_HAL_Driver/Src/stm3
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i
@@ -431,7 +431,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i: STM32F1xx_HAL_Driver/Src/stm32f
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
@@ -439,7 +439,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s: STM32F1xx_HAL_Driver/Src/stm32f
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
@@ -447,7 +447,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj: STM32F1xx_HAL_Driver/Src/stm32f
 
 # target to build an object file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
@@ -455,7 +455,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i: STM32F1xx_HAL_Driver/Src/stm32f1x
 
 # target to preprocess a source file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
 
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s: STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
@@ -463,7 +463,7 @@ STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s: STM32F1xx_HAL_Driver/Src/stm32f1x
 
 # target to generate assembly for a file
 STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
 .PHONY : STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
 
 __/core/GCC/startup_stm32f103xe.obj: __/core/GCC/startup_stm32f103xe.s.obj
@@ -471,7 +471,7 @@ __/core/GCC/startup_stm32f103xe.obj: __/core/GCC/startup_stm32f103xe.s.obj
 
 # target to build an object file
 __/core/GCC/startup_stm32f103xe.s.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/__/core/GCC/startup_stm32f103xe.s.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/__/core/GCC/startup_stm32f103xe.s.obj
 .PHONY : __/core/GCC/startup_stm32f103xe.s.obj
 
 __/core/system_stm32f1xx.obj: __/core/system_stm32f1xx.c.obj
@@ -479,7 +479,7 @@ __/core/system_stm32f1xx.obj: __/core/system_stm32f1xx.c.obj
 
 # target to build an object file
 __/core/system_stm32f1xx.c.obj:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/__/core/system_stm32f1xx.c.obj
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/__/core/system_stm32f1xx.c.obj
 .PHONY : __/core/system_stm32f1xx.c.obj
 
 __/core/system_stm32f1xx.i: __/core/system_stm32f1xx.c.i
@@ -487,7 +487,7 @@ __/core/system_stm32f1xx.i: __/core/system_stm32f1xx.c.i
 
 # target to preprocess a source file
 __/core/system_stm32f1xx.c.i:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/__/core/system_stm32f1xx.c.i
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/__/core/system_stm32f1xx.c.i
 .PHONY : __/core/system_stm32f1xx.c.i
 
 __/core/system_stm32f1xx.s: __/core/system_stm32f1xx.c.s
@@ -495,7 +495,7 @@ __/core/system_stm32f1xx.s: __/core/system_stm32f1xx.c.s
 
 # target to generate assembly for a file
 __/core/system_stm32f1xx.c.s:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/__/core/system_stm32f1xx.c.s
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/__/core/system_stm32f1xx.c.s
 .PHONY : __/core/system_stm32f1xx.c.s
 
 # Help Target
@@ -564,7 +564,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(CMAKE_COMMAND) -P D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles\VerifyGlobs.cmake
-	cd /d D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(CMAKE_COMMAND) -P D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles\VerifyGlobs.cmake
+	cd /d D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

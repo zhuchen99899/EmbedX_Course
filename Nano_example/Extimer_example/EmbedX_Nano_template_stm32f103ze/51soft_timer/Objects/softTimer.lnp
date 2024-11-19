@@ -1,0 +1,5 @@
+".\Objects\STARTUP.obj",
+".\Objects\ExTimer.obj",
+".\Objects\main.obj" 
+TO ".\Objects\softTimer" 
+PRINT(".\Listings\softTimer.m51") RAMSIZE(256) 

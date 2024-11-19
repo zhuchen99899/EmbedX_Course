@@ -1,0 +1,128 @@
+C51 COMPILER V9.60.0.0   EXTIMER                                                           11/19/2024 22:32:54 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE EXTIMER
+OBJECT MODULE PLACED IN .\Objects\ExTimer.obj
+COMPILER INVOKED BY: D:\software\IDE\keil\C51\BIN\C51.EXE ExTimer.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\
+                    -Listings\ExTimer.lst) TABS(2) OBJECT(.\Objects\ExTimer.obj)
+
+line level    source
+
+   1          /**
+   2           * @file ExTimer.c
+   3           * @author ZC (387646983@qq.com)
+   4           * @brief 
+   5           * @version 0.1
+   6           * @date 2024-11-04
+   7           * 
+   8           * @copyright Copyright (c) 2024
+   9           * 
+  10           */
+  11          #include "ExTimer.h"
+  12          #include "stdlib.h"
+  13          
+  14          
+  15          
+  16          static exTimer_t exTimer_table[timer_table_length];
+  17          
+  18          // ExTimer system tick
+  19          static uint32_t sysTickUptime = 0;
+  20          
+  21          /**
+  22           * @brief  create a timer manager (cycle list)
+  23           * 
+  24           * @return exTimerManager_t 
+  25           */
+  26          void  exTimerManagerCreate(void)
+  27          {
+  28   1          uint8_t i;
+  29   1          for (i = 0; i < timer_table_length; i++) {
+  30   2              exTimer_table[i].interval=0;
+  31   2              exTimer_table[i].Enable=0;
+  32   2              exTimer_table[i].timer_callback = NULL;
+  33   2              exTimer_table[i].TickPrev = NULL;
+  34   2          }
+  35   1      }
+  36          
+  37          
+  38          void exTimer_add(exTimer_t *newTimer)
+  39          {   uint8_t i;
+  40   1          for ( i = 0; i < timer_table_length; i++) {
+  41   2              if (exTimer_table[i].timer_callback == NULL) {
+  42   3                  exTimer_table[i] = *newTimer;
+  43   3                  return;
+  44   3              }
+  45   2          }
+  46   1      
+  47   1      }
+  48          
+  49          
+  50          /**
+  51            * @brief  时间差判定
+  52            * @param  nowTick:当前时间
+  53            * @param  prevTick:上一个时间
+  54            * @retval 时间差
+C51 COMPILER V9.60.0.0   EXTIMER                                                           11/19/2024 22:32:54 PAGE 2   
+
+  55            */
+  56          static uint32_t GetTickElaps(uint32_t nowTick, uint32_t prevTick)
+  57          {
+  58   1          uint32_t actTime = nowTick;
+  59   1      
+  60   1          if(actTime >= prevTick)
+  61   1          { //没有溢出
+  62   2              prevTick = actTime - prevTick;
+  63   2          }
+  64   1          else
+  65   1          {  //产生溢出
+  66   2              prevTick = /*UINT32_MAX*/0xFFFFFFFF - prevTick + 1;
+  67   2              prevTick += actTime;
+  68   2          }
+  69   1      
+  70   1          return prevTick;
+  71   1      }
+  72          
+  73          void pollingExTimer(void) {
+  74   1          
+  75   1          uint8_t i;
+  76   1          exTimer_t * current = NULL;
+  77   1      
+  78   1              for (i = 0; i < timer_table_length; i++) {
+  79   2                 current=&exTimer_table[i];
+  80   2              if (current->Enable) {
+  81   3                  // timer must be enabled
+  82   3                  uint32_t elapsTime = GetTickElaps(sysTickUptime,current->TickPrev);
+  83   3                  if ( elapsTime>= current->interval) {
+  84   4      
+  85   4                      // 更新定时器的上一次触发时间
+  86   4                      current->TickPrev = sysTickUptime;
+  87   4                      // 触发回调函数
+  88   4                    current->timer_callback();
+  89   4                      if (current->timer_callback != NULL) {
+  90   5                          
+  91   5                      }
+  92   4           
+  93   4                  }
+  94   3              }
+  95   2            }
+  96   1      }
+  97          
+  98          void exTimer_tick_inc(void){
+  99   1      
+ 100   1      sysTickUptime=sysTickUptime+1;
+ 101   1      
+ 102   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    430    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     44      25
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

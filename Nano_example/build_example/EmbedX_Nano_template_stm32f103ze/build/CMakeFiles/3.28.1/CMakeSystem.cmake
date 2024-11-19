@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Windows")
 set(CMAKE_HOST_SYSTEM_VERSION "10.0.22631")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/project/GCC/scripts/cmake/armgcc_cm3.cmake")
+include("D:/code/Embedded/EmbedX/Nano_example/build_example/EmbedX_Nano_template_stm32f103ze/project/GCC/scripts/cmake/armgcc_cm3.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

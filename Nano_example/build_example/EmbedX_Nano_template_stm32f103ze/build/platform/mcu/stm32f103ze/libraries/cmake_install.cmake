@@ -1,4 +1,4 @@
-# Install script for directory: D:/code/Embedded/EmbedX/example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries
+# Install script for directory: D:/code/Embedded/EmbedX/Nano_example/build_example/EmbedX_Nano_template_stm32f103ze/platform/mcu/stm32f103ze/libraries
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

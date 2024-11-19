@@ -53,10 +53,10 @@ RM = D:\software\Embedded_tools\STM32CubeCLT_1.16.0\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze
+CMAKE_SOURCE_DIR = D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build
+CMAKE_BINARY_DIR = D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -112,18 +112,18 @@ platform/mcu/stm32f103ze/libraries/clean: platform/mcu/stm32f103ze/libraries/CMa
 # Target rules for target CMakeFiles/Template.dir
 
 # All Build rule for target.
-CMakeFiles/Template.dir/all: platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/all
 CMakeFiles/Template.dir/all: platform/mcu/stm32f103ze/bsp/CMakeFiles/bsp.dir/all
+CMakeFiles/Template.dir/all: platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Template.dir\build.make CMakeFiles/Template.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target Template"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target Template"
 .PHONY : CMakeFiles/Template.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Template.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 58
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 58
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Template.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 0
 .PHONY : CMakeFiles/Template.dir/rule
 
 # Convenience name for target.
@@ -142,14 +142,14 @@ CMakeFiles/Template.dir/clean:
 platform/mcu/stm32f103ze/bsp/CMakeFiles/bsp.dir/all: platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/all
 	$(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\bsp\CMakeFiles\bsp.dir\build.make platform/mcu/stm32f103ze/bsp/CMakeFiles/bsp.dir/depend
 	$(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\bsp\CMakeFiles\bsp.dir\build.make platform/mcu/stm32f103ze/bsp/CMakeFiles/bsp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41 "Built target bsp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41 "Built target bsp"
 .PHONY : platform/mcu/stm32f103ze/bsp/CMakeFiles/bsp.dir/all
 
 # Build rule for subdir invocation for target.
 platform/mcu/stm32f103ze/bsp/CMakeFiles/bsp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 platform/mcu/stm32f103ze/bsp/CMakeFiles/bsp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 0
 .PHONY : platform/mcu/stm32f103ze/bsp/CMakeFiles/bsp.dir/rule
 
 # Convenience name for target.
@@ -168,14 +168,14 @@ platform/mcu/stm32f103ze/bsp/CMakeFiles/bsp.dir/clean:
 platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/all:
 	$(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/depend
 	$(MAKE) $(MAKESILENT) -f platform\mcu\stm32f103ze\libraries\CMakeFiles\stm32f10x_hal.dir\build.make platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles --progress-num=42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58 "Built target stm32f10x_hal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles --progress-num=42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58 "Built target stm32f10x_hal"
 .PHONY : platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/all
 
 # Build rule for subdir invocation for target.
 platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles 0
 .PHONY : platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/rule
 
 # Convenience name for target.
@@ -194,7 +194,7 @@ platform/mcu/stm32f103ze/libraries/CMakeFiles/stm32f10x_hal.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P D:\code\Embedded\EmbedX\example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles\VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P D:\code\Embedded\EmbedX\Nano_example\build_example\EmbedX_Nano_template_stm32f103ze\build\CMakeFiles\VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
